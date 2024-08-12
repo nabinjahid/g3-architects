@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+}
+
+/* common css */
+body {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0px auto;
+}
+
+.container {
+    width: 80%;
+    margin: 0px auto;
+}
+
+/* heder section */
+header {
+    background: rgba(255, 144, 14, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid red; */
+    padding: 15px 0px;
+}
+
+.logo {
+    font-size: 45px;
+    color: rgb(255, 144, 14);
+    font-weight: 700;
+}
+
+.menu {
+    display: flex;
+    gap: 15px;
+    /* border: 2px solid green; */
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.hamberger {
+    display: none;
+}
+
+.fa-solid {
+    font-size: 28px;
+    margin-right: 10px;
+}
+
+/* nav end-------------- */
+/* banner start------------- */
+.banner {
+    padding-bottom: 20px;
+}
+
+.section-hedding {
+    width: 70%;
+    margin: 50px auto;
+    text-align: center;
+    /* border: 2px solid red; */
+
+}
+
+.section-hedding h1 {
+    color: rgb(19, 19, 19);
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.section-hedding p {
+    width: 90%;
+    margin: 20px auto;
+
+    color: rgb(114, 114, 114);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.btn-primary {
+    border-radius: 8px;
+
+    background: rgb(255, 144, 14);
+    padding: 20px 25px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+.banner-img img {
+    width: 100%;
+}
+
+/* banner end -----------*/
+/* gallary section start */
+.gallary-container {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    padding-left: 50px;
+}
+
+.gallary {
+    width: 45%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.gallary img {
+    width: 100%;
+}
+
+.gallary-des {
+    width: 45%;
+
+}
+
+.gallary-des h1 {
+
+    font-size: 45px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.gallary-des p {
+    color: rgb(114, 114, 114);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+/* feature sectin start ------------------ */
+.features-section {
+    margin-top: 70px;
+}
+
+.feature-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 20px;
+}
+
+.feature-content {
+    width: 45%;
+}
+
+.feacture-img {
+    width: 45%;
+}
+
+.img-box img {
+    width: 90%;
+
+}
+
+.feature-content .left-border {
+    border-left: 5px solid rgb(255, 144, 14);
+    padding-left: 10px;
+}
+
+.feature-content div h1 {
+    color: rgb(19, 19, 19);
+    font-size: 35px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.feature-content p {
+    color: rgb(114, 114, 114);
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+}
+
+
+.cart-container {
+    margin-top: 30px;
+    /* border: 2px solid red; */
+    padding-left: 20px;
+}
+
+.cart {
+    margin-top: 20px;
+    padding: 20px 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 8px;
+
+}
+
+.cart-container .cart h1 {
+    color: rgb(19, 19, 19);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.feacture-img {
+    /* border: 2px solid red; */
+    text-align: end;
+    position: relative;
+}
+
+.experience {
+    position: absolute;
+    /* Rectangle 5 */
+    width: 170px;
+    height: 100px;
+    border-radius: 8px;
+    bottom: 30px;
+    left: 0;
+
+    background: rgb(255, 144, 14);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.experience h1 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.experience p {
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+}
+
+/* ----------------------------------- */
+/* fact section start ---------- */
+.facts-section {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.some-facts {
+    margin-bottom: 30px;
+}
+
+.some-facts h1 {
+    color: rgb(19, 19, 19);
+    font-size: 45px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.some-facts p {
+    width: 55%;
+    color: rgb(114, 114, 114);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.facts-box-container {
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid red; */
+
+}
+
+.facts-box {
+    width: 170px;
+    padding: 15px 0px;
+    text-align: center;
+    border: 1px solid rgb(255, 144, 14);
+    border-radius: 8px;
+
+}
+
+.facts-box h1 {
+    color: rgb(66, 66, 66);
+    font-size: 45px;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+
+/* --------------------- */
+/* sponsor section start */
+.sponsor {
+    margin-top: 130px;
+    /* border: 2px solid red; */
+}
+
+.section-hadding {
+    text-align: center;
+}
+
+.section-hadding h1 {
+    color: rgb(19, 19, 19);
+
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.section-hadding p {
+    width: 45%;
+    margin: 0 auto;
+
+    color: rgb(114, 114, 114);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.sponsor-company {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.company {
+    border: 1px dashed rgb(219, 214, 214);
+    padding: 5px 2px;
+}
+
+/* -------------------- */
+.footer {
+    margin-top: 100px;
+    padding: 35px 0px;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(255, 244, 231);
+}
